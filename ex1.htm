@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <!-- HTML -->
+<h1 id="titulo">Texto Antigo</h1>
+<button id="btn-mudar">Mudar Texto</button>
+<!-- JQUERY -->
+<script>
+ $(document).ready(function() {
+ $('#btn-mudar').click(function() {
+ $('#titulo').text('Texto alterado com jQuery com sucesso!');
+ });
+ });
+</script> 
+</body>
+</html>
